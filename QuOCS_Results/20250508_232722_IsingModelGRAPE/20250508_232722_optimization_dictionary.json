@@ -1,0 +1,31 @@
+{
+    "optimization_client_name": "IsingModelGRAPE",
+    "algorithm_settings": {
+        "algorithm_name": "GRAPE",
+        "optimization_direction": "maximization"
+    },
+    "pulses": [
+        {
+            "pulse_name": "Pulse_1",
+            "upper_limit": 100.0,
+            "lower_limit": -100.0,
+            "bins_number": 100,
+            "amplitude_variation": 30.0,
+            "time_name": "time_1",
+            "basis": {
+                "basis_name": "PiecewiseBasis"
+            }
+        }
+    ],
+    "parameters": [],
+    "times": [
+        {
+            "time_name": "time_1",
+            "initial_value": 1.0
+        }
+    ],
+    "create_logfile": true,
+    "console_info": true,
+    "use_microsecond_name": false,
+    "dump_format": "npz"
+}

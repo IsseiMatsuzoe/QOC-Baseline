@@ -1,0 +1,55 @@
+{
+    "optimization_client_name": "SpinQubit_GRAPE",
+    "algorithm_settings": {
+        "algorithm_name": "GRAPE",
+        "optimization_direction": "maximization",
+        "max_iter": 200,
+        "conv_tol": 1e-05
+    },
+    "pulses": [
+        {
+            "pulse_name": "x_control",
+            "upper_limit": 1.0,
+            "lower_limit": -1.0,
+            "bins_number": 100,
+            "amplitude_variation": 0.1,
+            "time_name": "time_1",
+            "basis": {
+                "basis_name": "PiecewiseBasis"
+            }
+        },
+        {
+            "pulse_name": "y_control",
+            "upper_limit": 1.0,
+            "lower_limit": -1.0,
+            "bins_number": 100,
+            "amplitude_variation": 0.1,
+            "time_name": "time_1",
+            "basis": {
+                "basis_name": "PiecewiseBasis"
+            }
+        },
+        {
+            "pulse_name": "z_control",
+            "upper_limit": 1.0,
+            "lower_limit": -1.0,
+            "bins_number": 100,
+            "amplitude_variation": 0.1,
+            "time_name": "time_1",
+            "basis": {
+                "basis_name": "PiecewiseBasis"
+            }
+        }
+    ],
+    "times": [
+        {
+            "time_name": "time_1",
+            "initial_value": 10.0
+        }
+    ],
+    "parameters": [],
+    "create_logfile": true,
+    "console_info": true,
+    "use_microsecond_name": false,
+    "dump_format": "npz"
+}
