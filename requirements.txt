@@ -3,3 +3,5 @@ qutip>=4.2.0
 qutip-qtrl>=0.1.0
 matplotlib==3.8.3
 quocs-lib>=0.0.66
+tqdm>=4.67.1
+pandas>=2.2.3
